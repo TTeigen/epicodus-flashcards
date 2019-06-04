@@ -1,0 +1,26 @@
+.container{
+  width:1025px;
+}
+ul {
+  list-style-type: none;
+}
+.jumbotron {
+  height: 800px;
+  display: grid;
+  text-align: center;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+.question1 {
+  display: none;
+}
+.flashcard:hover {
+  border: 1px dashed blue;
+}
+.answer {
+  display: none;
+}
+#reveal {
+  margin: auto;
+}
