@@ -1,3 +1,6 @@
+body {
+  background-color: lavender;
+}
 .container{
   width:1025px;
 }
@@ -5,9 +8,16 @@ ul {
   list-style-type: none;
 }
 .jumbotron {
+  color: white;
   height: 800px;
   display: grid;
   text-align: center;
+  background-image: url("img/forest1.gif");
+  background-size: cover;
+  text-shadow: 3px 3px 3px black;
+}
+.jumbotron p {
+  font-family: sans-serif;
 }
 .jumbotron .container {
   max-width: 100%;
@@ -16,10 +26,11 @@ ul {
   display: none;
 }
 .button {
-  border-right: 2px solid black;
   text-align: center;
+  height: 20px;
   padding: 5px;
 }
+
 .button:hover {
   text-decoration: underline;
   color: blue;
@@ -30,10 +41,22 @@ ul {
 }
 #reveal:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 .row {
+  margin-top: 40px;
+  height: 50px;
+}
+.clickers {
   background-color: silver;
+  border-radius: 5%;
 }
 .answer{
   display: none;
+}
+blockquote {
+  margin-top: 50px;
+  border-radius: 10%;
+  border: 2px ridge black;
+  width: 300px;
 }
