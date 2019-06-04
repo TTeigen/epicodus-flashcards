@@ -12,15 +12,28 @@ ul {
 .jumbotron .container {
   max-width: 100%;
 }
-.question1 {
+.flashcards {
   display: none;
 }
-.flashcard:hover {
-  border: 1px dashed blue;
+.button {
+  border-right: 2px solid black;
+  text-align: center;
+  padding: 5px;
 }
-.answer {
-  display: none;
+.button:hover {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
 }
 #reveal {
   margin: auto;
+}
+#reveal:hover {
+  cursor: pointer;
+}
+.row {
+  background-color: silver;
+}
+.answer{
+  display: none;
 }
