@@ -1,211 +1,102 @@
 $(document).ready(function() {
+  var questions = ["question1", "question2", "question3", "question4", "question5", "question6", "question7", "question8", "question9", "question10", "question11", "question12"]
   $("#Q1").click(function() {
     $(".flashcards").show();
+    questions.forEach(function(questions) {
+      $("#"+questions).hide();
+    })
     $(".answer").hide();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
-    $("#question6").hide();
-    $("#question7").hide();
-    $("#question8").hide();
-    $("#question9").hide();
-    $("#question10").hide();
-    $("#question11").hide();
-    $("#question12").hide();
     $("#question1").fadeIn();
   });
   $("#Q2").click(function() {
     $(".flashcards").show();
+    questions.forEach(function(questions) {
+      $("#"+questions).hide();
+    })
     $(".answer").hide();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
-    $("#question6").hide();
-    $("#question7").hide();
-    $("#question8").hide();
-    $("#question9").hide();
-    $("#question10").hide();
-    $("#question11").hide();
-    $("#question12").hide();
     $("#question2").fadeIn();
   });
   $("#Q3").click(function() {
     $(".flashcards").show();
+    questions.forEach(function(questions) {
+      $("#"+questions).hide();
+    })
     $(".answer").hide();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
-    $("#question6").hide();
-    $("#question7").hide();
-    $("#question8").hide();
-    $("#question9").hide();
-    $("#question10").hide();
-    $("#question11").hide();
-    $("#question12").hide();
     $("#question3").fadeIn();
   });
   $("#Q4").click(function() {
     $(".flashcards").show();
+    questions.forEach(function(questions) {
+      $("#"+questions).hide();
+    })
     $(".answer").hide();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
-    $("#question6").hide();
-    $("#question7").hide();
-    $("#question8").hide();
-    $("#question9").hide();
-    $("#question10").hide();
-    $("#question11").hide();
-    $("#question12").hide();
     $("#question4").fadeIn();
   });
   $("#Q5").click(function() {
     $(".flashcards").show();
+    questions.forEach(function(questions) {
+      $("#"+questions).hide();
+    })
     $(".answer").hide();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
-    $("#question6").hide();
-    $("#question7").hide();
-    $("#question8").hide();
-    $("#question9").hide();
-    $("#question10").hide();
-    $("#question11").hide();
-    $("#question12").hide();
     $("#question5").fadeIn();
   });
   //Questions 6-10
   $("#Q6").click(function() {
     $(".flashcards").show();
+    questions.forEach(function(questions) {
+      $("#"+questions).hide();
+    })
     $(".answer").hide();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
-    $("#question6").hide();
-    $("#question7").hide();
-    $("#question8").hide();
-    $("#question9").hide();
-    $("#question10").hide();
-    $("#question11").hide();
-    $("#question12").hide();
     $("#question6").fadeIn();
   });
   $("#Q7").click(function() {
     $(".flashcards").show();
+    questions.forEach(function(questions) {
+      $("#"+questions).hide();
+    })
     $(".answer").hide();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
-    $("#question6").hide();
-    $("#question7").hide();
-    $("#question8").hide();
-    $("#question9").hide();
-    $("#question10").hide();
-    $("#question11").hide();
-    $("#question12").hide();
     $("#question7").fadeIn();
   });
   $("#Q8").click(function() {
     $(".flashcards").show();
+    questions.forEach(function(questions) {
+      $("#"+questions).hide();
+    })
     $(".answer").hide();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
-    $("#question6").hide();
-    $("#question7").hide();
-    $("#question8").hide();
-    $("#question9").hide();
-    $("#question10").hide();
-    $("#question11").hide();
-    $("#question12").hide();
     $("#question8").fadeIn();
   });
   $("#Q9").click(function() {
     $(".flashcards").show();
+    questions.forEach(function(questions) {
+      $("#"+questions).hide();
+    })
     $(".answer").hide();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
-    $("#question6").hide();
-    $("#question7").hide();
-    $("#question8").hide();
-    $("#question9").hide();
-    $("#question10").hide();
-    $("#question11").hide();
-    $("#question12").hide();
     $("#question9").fadeIn();
   });
   $("#Q10").click(function() {
     $(".flashcards").show();
-    $(".answer").hide();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
-    $("#question6").hide();
-    $("#question7").hide();
-    $("#question8").hide();
-    $("#question9").hide();
-    $("#question10").hide();
-    $("#question11").hide();
-    $("#question12").hide();
-    $("#question10").fadeIn();
+    questions.forEach(function(questions) {
+      $("#"+questions).hide();
+    })
+    $(".answer").hide();    $("#question10").fadeIn();
   });
 
   $("#Q11").click(function() {
     $(".flashcards").show();
+    questions.forEach(function(questions) {
+      $("#"+questions).hide();
+    })
     $(".answer").hide();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
-    $("#question6").hide();
-    $("#question7").hide();
-    $("#question8").hide();
-    $("#question9").hide();
-    $("#question10").hide();
-    $("#question11").hide();
-    $("#question12").hide();
     $("#question11").fadeIn();
   });
   $("#Q12").click(function() {
     $(".flashcards").show();
+    questions.forEach(function(questions) {
+      $("#"+questions).hide();
+    })
     $(".answer").hide();
-    $("#question1").hide();
-    $("#question2").hide();
-    $("#question3").hide();
-    $("#question4").hide();
-    $("#question5").hide();
-    $("#question6").hide();
-    $("#question7").hide();
-    $("#question8").hide();
-    $("#question9").hide();
-    $("#question10").hide();
-    $("#question11").hide();
-    $("#question12").hide();
     $("#question12").fadeIn();
   });
-
     $("#reveal").click(function() {
       $(".answer").fadeToggle();
     });
