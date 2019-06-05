@@ -60,3 +60,8 @@ blockquote {
   border: 2px ridge black;
   width: 300px;
 }
+#link {
+  color:lime;
+  text-decoration: underline;
+  text-shadow: 1px 1px black;
+}
